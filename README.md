@@ -1,19 +1,5 @@
 # LMGEC
 
-## Getting the data
-To download the data, use command
-
-```bash
-gdown "1DWtBaW0qF41KTZwGcfJe6vbrZy6MS8Uw"
-```
-
-or download them manually from [here](https://drive.google.com/file/d/1DWtBaW0qF41KTZwGcfJe6vbrZy6MS8Uw/view?usp=sharing).
- 
-
-```bash
-python run.py --dataset dblp --beta 2 --temperature 10 --runs 3
-```
-
 ## Running the code 
 To run experiments on a specific dataset use the correspoding command
 
