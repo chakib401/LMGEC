@@ -82,7 +82,6 @@ def lmgec(Xs, k, m, temperature, max_iter=30, tolerance=10e-7):
       alphas[v] = np.exp(-inertia / temperature)
       XW_consensus += alphas[v] * XWv
 
-    alphas = alphas / alphas.sum()
     XW_consensus = XW_consensus / alphas.sum()
     G, F = init_G_F(XW_consensus, k)
 
