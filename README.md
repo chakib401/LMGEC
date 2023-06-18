@@ -32,7 +32,7 @@ python run.py --dataset photos --beta 2 --temperature 10 --runs 3
 python run.py --dataset wiki --beta 1 --temperature 1 --runs 3
 ```
 
-If you the code please do cite :
+If you use this code please do cite :
 
 ```BibTeX
 @inproceedings{fettal2022efficient,
